@@ -1,0 +1,9 @@
+//Insertion sort(algorithm)
+mark first element as sorted
+for each unsorted element x
+'extract' the element x
+for j = last sorted index down to 0
+	if current element j > x
+		move sorted element to the right by 1
+	
+	break loop and insert x here
