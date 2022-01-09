@@ -1,0 +1,9 @@
+//Quick sort(algorithm)
+for each (unsorted) partition
+set firt element as pivot
+
+store index = pivot index +1
+for i = pivot index +1 to right most index
+	if element[i]<element[pivot]
+	swap(i,store index);store index++
+	swap(pivot,store index-1)
