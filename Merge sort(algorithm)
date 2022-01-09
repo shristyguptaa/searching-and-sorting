@@ -1,0 +1,9 @@
+//Merge sort(algorithm)
+split each element into partitons of size 1
+recursively merge adjacent partitons
+for i = left part index to right part index
+	if left part head value <= right part head value
+		copy left part head value
+	else 
+		copy right part head value
+copy elements back to original value
