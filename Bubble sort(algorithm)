@@ -1,0 +1,9 @@
+//Bubble sort(algorithm)
+do
+	swapped = false
+	for i = 1 to index of lasrt unsorted element-1
+	if left element> right element
+	
+	swap(left element,right element)
+		swapped = true
+	while swapped
